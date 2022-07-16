@@ -8,6 +8,7 @@ public class Gugu2 {
 				System.out.println(j+"*"+i+"="+j*i);
 			}
 		}
+
 	}
 
 }

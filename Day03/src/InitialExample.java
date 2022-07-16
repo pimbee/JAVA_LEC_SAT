@@ -1,32 +1,38 @@
 /**
- * ÇÒ´ç(´ëÀÔ¿¬»ê) 
+ * í• ë‹¹(ëŒ€ì…ì—°ì‚°) 
  * @author TJ
  * 
- * int a = 10; // ÇÁ·Î±×·¥Àº ÁÂ¿¡¼­ ¿ì·Î ÀÌµ¿
- * 10 = a // ¿¡·¯  
+ * int a = 10; // í”„ë¡œê·¸ë¨ì€ ì¢Œì—ì„œ ìš°ë¡œ ì´ë™
+ * 10 = a // ì—ëŸ¬  
  * 
- * int a <-- ¼±¾ğ (º¯¼ö¼±¾ğ) 
- * = ÇÒ´ç 
+ * int a <-- ì„ ì–¸ (ë³€ìˆ˜ì„ ì–¸) 
+ * = í• ë‹¹ 
  * 10 
- * -> ÀÎÆ¼Á® a¸¦ ¼±¾ğÇÏ°í 10À» ÇÒ´çÇÏ°Ú´Ù. 
+ * -> ì¸í‹°ì ¸ aë¥¼ ì„ ì–¸í•˜ê³  10ì„ í• ë‹¹í•˜ê² ë‹¤. 
  */
 
 public class InitialExample {
+	
 	public static void main(String[] args) {
 		
-		int a=10;
+		int a = 10; // í• ë‹¹/ëŒ€ì…
 		System.out.println(a);
 		
-		int b=100;
-		b+=10;
-		System.out.println(b);//110Ãâ·Â
-		b-=10;
-		System.out.println(b);//100Ãâ·Â
-		b*=100;
-		System.out.println(b);//10000Ãâ·Â
-		b/=100;
-		System.out.println(b);//100Ãâ·Â
-		b%=100;
-		System.out.println(b);//0Ãâ·Â
+		// = += -= *= /= %= 
+		
+		int b = 100; // ë‹¨ìˆœ í• ë‹¹ ( 100ì„ ì…ë ¥ )  
+		b += 10; // b = b + 10; 
+		System.out.println(b);  //<-- 110 
+		b -= 10; // b = b - 10;  
+		System.out.println(b);  //<-- 100
+		b *= 100; // b = b * 100; 
+		System.out.println(b);  //<-- 10000
+		b /= 100; // b = b / 100; 
+		System.out.println(b);  //<-- 100
+		b %= 100; // b = b % 100; 
+		System.out.println(b); //<-- 0
+		
+		
 	}
+	
 }

@@ -1,50 +1,32 @@
 /**
- * ºñ±³¿¬»ê 
+ * ë¹„êµì—°ì‚° 
  * @author TJ
- * - µÎ Ç×À» ºñ±³ÇØ¼­ °á°ú¸¦ ¾ò´Â ÀÛ¾÷ 
- * - µÎ Ç×ÀÇ °á°ú´Â Ç×»ê Âü,°ÅÁş (true, false) 
+ * - ë‘ í•­ì„ ë¹„êµí•´ì„œ ê²°ê³¼ë¥¼ ì–»ëŠ” ì‘ì—… 
+ * - ë‘ í•­ì˜ ê²°ê³¼ëŠ” í•­ì‚° ì°¸,ê±°ì§“ (true, false) 
  * - boolean ( true / false , 1 / 0 )
  * A > B, A < B, A >= B, A <= B
  * A == B (A equal B)  
- * A != B (A not equal B) -> A´Â B¿Í °°Áö ¾Ê´Ù.   
+ * A != B (A not equal B) -> AëŠ” Bì™€ ê°™ì§€ ì•Šë‹¤.   
  */
 
 public class CompareExample {
 
 	public static void main(String[] args) {
-
-		int a =10;
-		int b= 5;
-		
-		System.out.println(a>b);
-		System.out.println(a>=b);
-		System.out.println(a<b);
-		System.out.println(a<=b);
-		System.out.println(a==b);
-		System.out.println(a!=b);
-		
-		boolean c = a==b;
-		System.out.println("c = " +c);
-		boolean d = c==false;
-		System.out.println("d = " + d);
 		
 		boolean result = false; // or true 
 		result = 10 > 2;
 		System.out.println(result);
 		System.out.println(!result);
 		
-		result = 10 < 2; // °ÅÁş 
-		System.out.println(result);
-		result = 10 >= 10; // Âü  
-		System.out.println(result);
-		result = 10 > 10; // °ÅÁş 
-		System.out.println(result);
+		result = 10 < 2; // ê±°ì§“ 
+		result = 10 >= 10; // ì°¸  
+		result = 10 > 10; // ê±°ì§“ 
 		
-		//result = "Á¾¼®" > "¸¸¼¼"; // ½Ç¼ö,Á¤¼ö ºñ±³¸¸ °¡´É 
-		result = "Á¾¼®" == "¸¸¼¼"; // !=, == Àº °´Ã¼µî ¸ğµçµ¥ÀÌÅÍÅ¸ÀÔÀ» 
-								 // ºñ±³ÇÒ ¼ö ÀÖ´Ù. 
-		System.out.println(result);
+		//result = "ì¢…ì„" > "ë§Œì„¸"; // ì‹¤ìˆ˜,ì •ìˆ˜ ë¹„êµë§Œ ê°€ëŠ¥ 
+		result = "ì¢…ì„" == "ë§Œì„¸"; // !=, == ì€ ê°ì²´ë“± ëª¨ë“ ë°ì´í„°íƒ€ì…ì„ 
+								 // ë¹„êµí•  ìˆ˜ ìˆë‹¤. 
+		
+		
 		
 	}
-
 }

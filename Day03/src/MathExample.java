@@ -1,41 +1,38 @@
 /**
- * »ê¼ú¿¬»ê 
+ * ì‚°ìˆ ì—°ì‚° 
  *  
  * @author TJ
- * 1. ±âº»ÀûÀ¸·Î´Â ÀÌÇ×¿¬»ê 
- * x ¿¬»êÀÚ y -> ? 
+ * 1. ê¸°ë³¸ì ìœ¼ë¡œëŠ” ì´í•­ì—°ì‚° 
+ * x ì—°ì‚°ìž y -> ? 
  * a + b, b - c ....
  * +,-,/,*,%  
- * % <-- ³ª¸ÓÁö ¿¬»ê 
+ * % <-- ë‚˜ë¨¸ì§€ ì—°ì‚° 
  * 
  */
 
 public class MathExample {
-	public static void main (String[] args) {
-		int x=10;
-		int y=11;
+
+	public static void main(String[] args) {
 		
-		System.out.println("x + y="+(x+y)); //21Ãâ·Â
-		System.out.println("x - y="+(x-y)); //-1Ãâ·Â
-		System.out.println("x * y="+(x*y)); //110Ãâ·Â
-		System.out.println("x / y="+(x/y)); //0Ãâ·Â
-		System.out.println("x / 10.1 = " + (10.1 / x)); //¼Ò¼ýÁ¡ÀÌ µé¾î°£ ½Ç¼ö10.1ÀÌ Á¸ÀçÇÏ¹Ç·Î .ÀÌÇÏ±îÁö ³ª¿Â´Ù.
+		int x = 10;
+		int y = 11; 
+		System.out.println("x + y = " + (x + y));
+		System.out.println("x - y = " + (x - y));
+		System.out.println("x * y = " + (x * y)); // ê³±í•˜ê¸° 
+		System.out.println("x / y = " + (x / y)); // ë‚˜ëˆ„ê¸° 
+		System.out.println("x / 10.1 = " + (10.1 / x)); 
 		System.out.println(10*20*30*0.1); // Double
 		System.out.println(10*20*0.1*30); // Double
 		
 		System.out.println(11%10); 
-		System.out.println(10%0);  
-		//-- ³ª¸ÓÁö ¿¬»ê ( 11¿¡¼­ 10À» ³ª´³À»¶§ ³ª¸ÓÁö °ªÀÌ ¾ó¸¶? ) 
+		System.out.println(10%2);  
+		//-- ë‚˜ë¨¸ì§€ ì—°ì‚° ( 11ì—ì„œ 10ì„ ë‚˜ëˆ´ì„ë•Œ ë‚˜ë¨¸ì§€ ê°’ì´ ì–¼ë§ˆ? ) 
 		
-		System.out.println("³ªÀÇ ÁýÀº ½ÃÈï´ë·Î " + (100 + 52) + "±æ ÀÔ´Ï´Ù.");
 		
-		int add=100;
-		System.out.println("³ªÀÇ ÁýÀº »óµµ·Î" + (add + 42) + "±æÀÔ´Ï´Ù.");
+		System.out.println("ë‚˜ì˜ ì§‘ì€ ì‹œí¥ëŒ€ë¡œ " + (100 + 52) + "ê¸¸ ìž…ë‹ˆë‹¤.");
 		
-		//Á¤¼ö¿Í Á¤¼öÀÇ ¿¬»ê°á°ú´Â ¹Ýµå½Ã Á¤¼ö·Î ³ª¿Â´Ù.
-		//³ª´°¼ÀÀÇ ¼Ò¼ýÁ¡ÀÚ¸®±îÁö ³ª¿À°Ô ÇÏ·Á¸é ¹Ýµå½Ã ÇÏ³ªÀÌ»óÀÇ ½Ç¼ö°¡ Á¸ÀçÇØ¾ß ÇÑ´Ù.
-		int aa= 10;
-		double bb = 4;
-		System.out.println("10 / 4 = " + aa/bb); //doubleÀÌ¶ó´Â ½Ç¼ö°¡ ÀÖÀ¸¹Ç·Î ¼Ò¼ýÁ¡±îÁö ³ª¿Â´Ù.
-	}
+		
+		
+ 	}
+	
 }

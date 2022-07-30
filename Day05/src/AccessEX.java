@@ -1,5 +1,5 @@
 /*
- * 접근제한자
+ * 접근제한자입니다
  * public/protected/ default / private 
  * 
  * 접근제한자는 아래와 같은 곳에 붙을 수 있습니다.
